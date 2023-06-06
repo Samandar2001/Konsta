@@ -1066,7 +1066,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d99beeaa27c9484cbcc6b14e5a1ee6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playList: []
+  playList:
+  - {fileID: 8300000, guid: 6c2e191e01381d943abc6a902ea2fff7, type: 3}
+  - {fileID: 8300000, guid: c238072ac0ea840429bcbf61f1fb7a9d, type: 3}
+  - {fileID: 8300000, guid: 082d61f644d3a384389a4c3e6cb2a04e, type: 3}
+  - {fileID: 8300000, guid: c61dd32b97bc6ca44a8d0f7c1a8bb7b2, type: 3}
   repeat: 0
   autoAdvance: 1
   recycle: 1
@@ -1872,7 +1876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &853916468
 Transform:
   m_ObjectHideFlags: 0
