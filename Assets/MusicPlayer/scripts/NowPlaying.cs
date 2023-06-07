@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+//using TMPro;
 
 public class NowPlaying : MonoBehaviour {
 
@@ -14,9 +15,9 @@ public class NowPlaying : MonoBehaviour {
             string timeText = SecondsToMS(HajiyevMusicManager.instance.TimeInSeconds());
             string lengthText = SecondsToMS(HajiyevMusicManager.instance.LengthInSeconds());
 
-            nowPlayingText.text = "" + (HajiyevMusicManager.instance.CurrentTrackNumber() + 1) + ".  " +
-                HajiyevMusicManager.instance.NowPlaying().name
-                + " (" + timeText + "/" + lengthText + ")" ;
+            //nowPlayingText.text = "" + (HajiyevMusicManager.instance.CurrentTrackNumber() + 1) + ".  " +
+            //    HajiyevMusicManager.instance.NowPlaying().name
+            //    + " (" + timeText + "/" + lengthText + ")" ;
 
             musicLength.value = HajiyevMusicManager.instance.TimeInSeconds();
             musicLength.maxValue = HajiyevMusicManager.instance.LengthInSeconds();
